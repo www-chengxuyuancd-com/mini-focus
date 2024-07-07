@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/records/records",
+    "pages/setting/setting"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -11,5 +13,25 @@
   "style": "v2",
   "componentFramework": "glass-easel",
   "sitemapLocation": "sitemap.json",
-  "lazyCodeLoading": "requiredComponents"
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+    "color": "#CDCDCD",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "backgroundColor": "#FFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/index.png",
+        "selectedIconPath": "image/index2.png",
+        "text": "开始"
+      },
+      {
+        "pagePath": "pages/records/records",
+        "iconPath": "image/index.png",
+        "selectedIconPath": "image/index2.png",
+        "text": "历史记录"
+      }
+    ]
+  }
 }
